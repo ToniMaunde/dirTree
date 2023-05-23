@@ -2,6 +2,7 @@
 module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
+    "*.html"
   ],
   theme: {
     extend: {
@@ -11,6 +12,13 @@ module.exports = {
         "chinese-silver": "#CCCCCC",
         "eerie-black": "#1C1D21",
         "vampire-black": "#050505",
+      },
+      lineHeight: {
+        "leading-150": "150%"
+      },
+      fontFamily: {
+        "inter": "Inter",
+        "zilla-slab": "Zilla",
       }
     },
   },

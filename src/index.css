@@ -1,3 +1,45 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "Inter";
+    src:
+    	local("Inter"),
+    	url("/fonts/inter.woff2") format("woff2") tech("variations"),
+    	url("/fonts/inter.woff2") format("woff2-variations");
+    font-weight: 100 1000;
+    font-display: swap;
+    font-stretch: normal;
+}
+
+
+@font-face {
+    font-family: "Zilla-Medium";
+    src:
+    	url("/fonts/zillaslab-medium.woff2") format("woff2"),
+        url("/fonts/zillaslab-medium.woff") format("woff");
+    font-weight: 400 600;
+    font-display: swap;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: "Zilla-Semibold";
+    src:
+    	url("/fonts/zillaslab-semibold.woff2") format("woff2"),
+        url("/fonts/zillaslab-semibold.woff") format("woff");
+    font-weight: 400 600;
+    font-display: swap;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: "Zilla-Bold";
+    src:
+    	url("/fonts/zillaslab-bold.woff2") format("woff2"),
+        url("/fonts/zillaslab-bold.woff") format("woff");
+    font-weight: 400 600;
+    font-display: swap;
+    font-stretch: normal;
+}

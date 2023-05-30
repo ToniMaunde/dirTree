@@ -6,9 +6,13 @@ const App: Component = () => {
     <>
       <Navbar />
       <main
-        class="font-inter text-white"
+        class="font-inter-regular text-white"
       >
-        Content here, soon.
+        <h1
+          class="font-inter-semibold text-chinese-silver"
+        >
+          Creating ASCII trees has never been easier. Use indentation to specify the hierarchy of your project structure.
+        </h1>
       </main>
     </>
   );

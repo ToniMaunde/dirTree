@@ -17,8 +17,10 @@ module.exports = {
         "leading-150": "150%"
       },
       fontFamily: {
-        "inter": "Inter",
-        "zilla-slab": "Zilla",
+        "inter-regular": "Inter-Regular",
+        "inter-semibold": "Inter-Semibold",
+        "zillaslab-medium": "Zilla-Slab-Medium",
+        "zillaslab-bold": "Zilla-Slab-Bold",
       }
     },
   },

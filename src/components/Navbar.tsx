@@ -1,7 +1,7 @@
 export default function Navbar() {
-  return(
+  return (
     <nav
-      class="text-white font-zillaslab-bold text-2xl"
+      class="text-white p-1 font-zillaslab-bold text-2xl"
     >
       dir
       <span

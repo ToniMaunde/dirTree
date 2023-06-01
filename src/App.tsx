@@ -1,7 +1,6 @@
-import type { Component } from 'solid-js';
 import Navbar from "./components/Navbar";
 
-const App: Component = () => {
+export default function App() {
   return (
     <>
       <Navbar />
@@ -17,5 +16,3 @@ const App: Component = () => {
     </>
   );
 };
-
-export default App;

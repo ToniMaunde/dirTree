@@ -14,7 +14,7 @@ module.exports = {
         "vampire-black": "#050505",
       },
       lineHeight: {
-        "leading-150": "150%"
+        "150": "150%"
       },
       fontFamily: {
         "inter-regular": "Inter-Regular",

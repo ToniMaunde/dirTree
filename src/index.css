@@ -37,3 +37,7 @@
     font-weight: 700;
     font-display: swap;
 }
+
+.ce-toolbar, .ce-inline-toolbar {
+    display: none !important;
+}

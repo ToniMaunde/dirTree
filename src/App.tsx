@@ -19,6 +19,24 @@ export default function App() {
       >
         <TreeEditor />
       </section>
-    </>
+      <section
+        class="px-2"
+      >
+        <div>
+          <button>
+            Copy
+          </button> 
+          <button>
+            Save
+          </button> 
+        </div>      
+        <textarea
+          class="bg-eerie-black text-chinese-silver outline-none border border-eerie-black focus-within:border-xanthous rounded w-full p-2"
+          rows={20}
+          readonly
+        >
+        </textarea>
+      </section>
+</>
   );
 };
